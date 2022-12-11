@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:topics/Pages/splash_page.dart';
+import 'package:topics/Resources/strings_manager.dart';
 import 'package:topics/pages/home_page.dart';
 
 class Routes{
@@ -23,9 +24,9 @@ class RouteGenerator {
     return MaterialPageRoute(
         builder: (_) => Scaffold(
           appBar: AppBar(
-            title: const Text("wrong page"),
+            title: const Text(AppStrings.noRouteFound),
           ),
-          body:const Center(child: Text("Wrong Page")),
+          body:const Center(child: Text(AppStrings.noRouteFound)),
         ));
   }
 }
