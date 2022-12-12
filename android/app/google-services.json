@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559328100707",
+    "project_id": "topics-ed12e",
+    "storage_bucket": "topics-ed12e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559328100707:android:ce0416015c9785fb0b9356",
+        "android_client_info": {
+          "package_name": "com.example.topics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559328100707-9ri14sjmtie5vjtuj1m1bvtj7vnmk664.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeydIAfzbpjlXzwMBiy46grLAXXc-Iqho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559328100707-9ri14sjmtie5vjtuj1m1bvtj7vnmk664.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
