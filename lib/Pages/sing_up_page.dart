@@ -10,6 +10,8 @@ class SingUpPage extends StatefulWidget {
 }
 
 class _SingUpPageState extends State<SingUpPage> {
+  late String _name,_emil,_password;
+
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
@@ -17,7 +19,42 @@ class _SingUpPageState extends State<SingUpPage> {
         title: Text("Sing Up"),
       ),
       body: Center(
-        child: Text("Hi"),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              TextField(
+                decoration: InputDecoration(label: Text("username")),
+                onChanged: (value) {
+                  _name = value;
+                },
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              TextField(
+                decoration: InputDecoration(label: Text("E-mail")),
+                onChanged: (value) {
+                  _emil = value;
+                },
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              TextField(
+                decoration: InputDecoration(label: Text("password")),
+                onChanged: (value) {
+                  _password = value;
+                },
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              ElevatedButton(onPressed: (){}, child: Text("Sign Up"))
+            ],
+          ),
+        ),
       ),
     );
   }
